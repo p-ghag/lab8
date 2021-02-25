@@ -5,9 +5,10 @@ function initCamera() {
   //        $('<Your code here>'));
 
   // For Reference:
-  // capture($('#camera-video'),
-  //       $('#camera-canvas'),
-  //       $('#camera-button'));
+  //capture($(<video autoplay id="camera-video"></video>)
+   //      $(<canvas id="camera-canvas"></canvas>),
+  //       $(<button id="camera-button" class="btn btn-primary">Take Photo</button>)
+  //       )
 }
 
 function capture(video, canvas, snapshotButton) {
